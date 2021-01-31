@@ -1,0 +1,502 @@
+@media screen and (max-width:1201px){
+    body{
+        max-height: 2304px;
+    }
+
+    .container{
+        width: 90%;
+    }
+
+
+
+
+
+
+/*HEADER-MENU*/
+
+
+
+
+.menu{
+    max-width: 730px;
+}
+
+
+
+
+
+
+
+
+/*HEADER*/
+
+
+
+
+.right_star{
+    position: absolute;
+    left: 90%;
+}
+
+
+
+
+/*MAIN* ГЛАВНАЯ*/
+
+
+
+
+.cover_link{
+    width: 300px;
+    height: 300px;
+}
+
+.rgba{
+    width: 300px;
+    height: 281px; 
+}
+
+.cover_serial_voice{
+    width: 300px;
+    height: 300px;
+}
+
+.cover_serial_kiss_of_the_cobra{
+    width: 300px;
+    height: 300px;
+}
+
+.cover_story_meditation{
+    width: 300px;
+    height: 300px;
+}
+
+.cover-manga-alderamin-in-the-sky{
+    width: 300px;
+    height: 300px;
+}
+
+.cover-manga-tomorrow{
+    width: 300px;
+    height: 300px;
+}
+
+.cover-manga-she-dragon{
+    width: 300px;
+    height: 300px;
+}
+
+
+
+
+/*MAIN МАНГА*/
+
+
+
+
+.cover-manga-love-at-a-special-level{
+    width: 300px;
+    height: 300px;
+}
+
+.cover0manga-boring-lie{
+    width: 300px;
+    height: 300px;
+}
+
+.cover-manga-I-m-not-used-to-being--girl{
+    width: 300px;
+    height: 300px;
+}
+
+.cover-manga-you-can-confess-your-love-to-me{
+    width: 300px;
+    height: 300px;
+}
+
+.cover-manga-hellish-agents{
+    width: 300px;
+    height: 300px;
+}
+
+.cover-manga-why-i-love-you{
+    width: 300px;
+    height: 300px;
+}
+
+.cover-manga-let-s-continue-tomorrow{
+    width: 300px;
+    height: 300px;
+}
+
+.cover-manga-Sensei_Ote-o-Douzo{
+    width: 300px;
+    height: 300px;
+}
+
+.cover-manga-love-at-a-special-level{
+    margin-top: 0px;
+}
+
+.cover0manga-boring-lie{
+    margin-top: 0px;
+}
+
+.cover-manga-I-m-not-used-to-being--girl{
+    margin-top: 0px;
+}
+
+.cover-manga-you-can-confess-your-love-to-me{
+    margin-top: 0px;
+}
+
+.cover-manga-hellish-agents{
+    margin-top: 0px;
+}
+
+.cover-manga-why-i-love-you{
+    margin-top: 0px;
+}
+
+.cover-manga-let-s-continue-tomorrow{
+    margin-top: 0px;
+}
+
+.cover-manga-Sensei_Ote-o-Douzo{
+    margin-top: 0px;
+}
+
+
+.cover-manga-Sensei_Ote-o-Douzo:last-child{
+    position: relative;
+    right: 387px;
+}
+
+
+
+
+
+/*MAIN СЕРИАЛЫ*/
+
+
+
+
+.cover_Love_that_changed_the_world{
+    width: 300px;
+    height: 300px;
+}
+
+.cover_serial_angkor{
+    width: 300px;
+    height: 300px;
+}
+
+.cover_serial_angkor{
+    margin-top: 0px;
+}
+
+
+
+
+
+/*MAIN СКАЗКИ*/
+
+
+
+
+.cover-fairy-tale-birth{
+    width: 300px;
+    height: 300px;
+}
+
+.cover-fairy-tales-shine{
+    width: 300px;
+    height: 300px;
+}
+
+.cover-fairy-tales-trickle{
+    width: 300px;
+    height: 300px;
+}
+
+.cover-fairy-tales-strawberry-and-dragon{
+    width: 300px;
+    height: 300px;
+}
+
+.cover-fairy-tales-strawberry-and-dragon{
+    margin-top: 0px;
+}
+
+
+
+
+/*FOOTER*/
+
+
+
+
+.social{
+    padding: 0;
+    margin: 0;
+    margin-top: 50px;
+    margin-bottom: 24px;
+}
+
+.vk{
+    width: 77px;
+    height: 77px;
+}
+
+.youtube{
+    width: 77px;
+    height: 77px;
+}
+
+}
+
+
+
+
+
+/*ПЛАНШЕТ*/
+
+
+
+
+
+@media screen and (max-width:993px){
+
+
+
+
+
+/*НАВИГАЦИЯ*/ 
+
+
+
+
+
+.menu{
+    max-width: 900px;
+}
+
+
+
+
+ /*MAIN МАНГА*/   
+
+
+
+
+ .cover-manga-Sensei_Ote-o-Douzo:last-child{
+    position: relative;
+    right: 8px;
+ }
+
+
+
+
+
+
+/*MAIN ОЗВУЧКА*/
+
+
+
+
+
+.cover-fairy-tales-trickle,
+.cover-fairy-tales-strawberry-and-dragon{
+    margin-top: 20px;
+}
+
+}
+
+
+
+
+/*МОБИЛКА*/
+
+
+
+
+@media screen and (max-width:668px){
+
+
+
+
+body{
+     max-height: 3804px;
+}
+
+.container{
+    width: 100%;
+}
+
+
+
+
+/*НАВИГАЦИЯ*/
+
+
+
+
+
+.menu a{
+    display: none;
+}
+
+.burger_menu{
+    display: block;
+    margin-right: 5px;
+    margin-top: 30px;
+}
+
+.menu__icon{
+    display: block;
+    width: 30px;
+    height: 5px;
+    background-color: #ffa600;
+    position: relative;
+}
+
+.menu__icon:before{
+    content: "";
+    display: block;
+    width: 30px;
+    height: 5px;
+    background-color: #ffa600;
+    position: absolute;
+    top: -10px;
+    transition: transform 0.3s ease, top 0.3s linear 0.3s;
+}
+
+.menu__icon:after{
+    content: "";
+    display: block;
+    width: 30px;
+    height: 5px;
+    background-color: #ffa600;
+    position: absolute;
+    top: 10px;
+    transition: transform 0.3s ease, top 0.3s linear 0.3s;
+}
+
+.menu__icon.menu__icon__active{
+    background-color: transparent;
+}
+
+.menu__icon.menu__icon__active:before{
+    transform: rotate(45deg);
+    top: 0;
+    transition: top 0.3s linear, transform 0.3s ease 0.3s;
+}
+
+.menu__icon.menu__icon__active:after{
+    transform: rotate(-45deg);
+    top: 0;
+    transition: top 0.2s linear, transform 0.3s ease 0.3s;
+}
+
+.menu__mobile__active{
+    display: block;
+    width: 200px;
+    height: 120px;
+    background-color: rgb(98, 0, 255,0.7);
+    position: relative;
+    top: 61px;
+    left: 50px;
+    
+}
+
+.menu__mobile__active a{
+    display: block;
+    color: #ffffff;
+    margin-top: 1px;
+    margin-right: 40px;
+}
+
+.menu__mobile__active a:active{
+    color: #ffa600;
+}
+
+
+
+
+
+/*HEDEAR*/
+
+
+
+
+
+.left_star,.right_star{
+    display: none;
+}
+
+.aitem{
+    font-size: 30px;
+    line-height: 30px;
+    margin-bottom: 60px;
+}
+
+
+.stars{
+    margin: 0 auto;
+}
+
+
+
+
+
+/*MAIN ГЛАВНАЯ*/
+
+
+
+
+
+.our_cinema{
+    margin: 0 auto;
+    max-width: 300px;
+}
+
+.our_library{
+    margin: 0 auto;
+    max-width: 300px;
+}
+
+
+
+
+
+
+/*MAIN МАНГА*/
+
+
+
+
+
+.manga{
+    margin: 0 auto;
+    max-width: 300px;
+}
+
+
+
+
+/* MAIN ОЗВУЧКА */
+
+
+
+
+.film{
+    margin: 0 auto;
+    max-width: 300px;
+}
+
+.cover-fairy-tales-strawberry-and-dragon{
+    position: relative;
+    right: 0px;
+}
+
+}

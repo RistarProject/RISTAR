@@ -1,0 +1,477 @@
+body{
+    padding: 0;
+    margin: 0;
+    background: url(images/ristars.png) no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+/*HEADER-MENU*/
+
+
+.heder-menu{
+    width: 100%;
+    height: 70px;
+    background-color: rgba(150, 150, 150, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo{
+    margin-top: 10px;
+    margin-left: 6px;
+}
+
+.menu ul{
+    list-style-type: none;
+}
+
+.menu{
+    margin-top: -70px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu li{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    padding-left: 39px;
+}
+
+.menu a{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.menu a:hover{
+    color: #ffa600;
+}
+
+.active{
+    border-bottom: 3px solid #ffa600;
+}
+
+.burger_menu{
+    display: none;  
+}
+
+.menu__mobile{
+    display: none;
+}
+
+.menu__mobile a{
+    display: none;
+}
+
+
+
+
+
+/*HEADER*/
+
+
+
+
+
+.aitem{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-top: 100px;
+    margin-left: 40%; 
+}
+
+.stars span{
+    color: #ea00ff;
+    margin-left: 25px;
+}
+
+.stars{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left_star{
+    width: 50px;
+    height: 50px;
+    background-image: url(icons/white-star.png);
+    background-repeat: no-repeat;
+    margin-top: 120px;
+    margin-left: 3px;
+    transition-duration: 1000ms;
+    position: absolute;
+}
+
+.left_star:hover{
+    width: 100px;
+    height: 100px;
+    background-image: url(icons/star-icon.png);
+    background-repeat: no-repeat;
+}
+
+.right_star{
+    width: 50px;
+    height: 50px;
+    background-image: url(icons/white-star.png);
+    background-repeat: no-repeat;
+    margin-top: 120px;
+    margin-left: 3px;
+    transition-duration: 1000ms;
+   
+   
+   
+}
+
+.right_star:hover{
+    width: 100px;
+    height: 100px;
+    background-image: url(icons/star-icon.png);
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+/*MAIN* ГЛАВНАЯ*/
+
+
+
+
+
+.our_cinema_films{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1170px;
+}
+
+.our_cinema h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.our_library_manga{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1170px;
+}
+
+.our_library h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.cover_serial_voice{
+    width: 354px;
+    height: 332px;
+    background: url(images/cover_serial_voice.png) no-repeat;
+    background-size: contain;
+    transition-duration: 500ms;
+}
+
+.cover_serial_kiss_of_the_cobra{
+    width: 354px;
+    height: 332px;
+    background: url(images/cover_serial_kiss_of_the_cobra.png) no-repeat;
+    background-size: contain;
+    transition-duration: 500ms;
+}
+
+.cover_story_meditation{
+    width: 354px;
+    height: 332px;
+    background: url(images/cover_story_meditation.png) no-repeat;
+    background-size: contain;
+    transition-duration: 500ms;
+}
+
+.cover-manga-alderamin-in-the-sky{
+    width: 354px;
+    height: 332px;
+    background: url(images/cover-manga-alderamin-in-the-sky.png) no-repeat;
+    background-size: contain;
+    transition-duration: 500ms;
+}
+
+.cover-manga-tomorrow{
+    width: 354px;
+    height: 332px;
+    background: url(images/cover-manga-tomorrow.png) no-repeat;
+    background-size: contain;
+    transition-duration: 500ms;
+}
+
+.cover-manga-she-dragon{
+    width: 354px;
+    height: 332px;
+    background: url(images/cover-manga-she-dragon.png) no-repeat;
+    background-size: contain;
+    transition-duration: 2s;
+}
+
+.rgba{
+    width: 354px;
+    height: 332px;
+    background-color: rgba(136, 4, 238, 0.7);
+    transition-duration: 1000ms;
+    opacity: 0;
+}
+
+.rgba h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #ffa700;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    padding-top: 50%;
+}
+
+.rgba:hover{
+    opacity: 1;
+}
+
+.cover_link{
+    text-decoration: none;
+}
+
+.cover_link:active{
+    text-decoration: none;
+}
+
+
+
+
+
+/*MAIN МАНГА*/
+
+
+
+
+
+.manga{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1170px;
+    margin-top: 40px;
+}
+
+.cover-manga-love-at-a-special-level{
+    width: 354px;
+    height: 332px;
+    background: url(images/cover-manga-love-at-a-special-level.png) no-repeat;
+    background-size: contain;
+    margin-top: 40px;
+}
+
+.cover0manga-boring-lie{
+    width: 354px;
+    height: 332px;
+    background: url(images/cover0manga-boring-lie.png) no-repeat;
+    background-size: contain;
+    margin-top: 40px;
+}
+
+.cover-manga-I-m-not-used-to-being--girl{
+    width: 354px;
+    height: 332px;
+    background: url(images/cover-manga-I-m-not-used-to-being-a-girl.png) no-repeat;
+    background-size: contain;
+    margin-top: 40px;
+}
+
+.cover-manga-you-can-confess-your-love-to-me{
+    width: 354px;
+    height: 332px;
+    background: url(images/cover-manga-you-can-confess-your-love-to-me.png) no-repeat;
+    background-size: contain;
+    margin-top: 40px;
+}
+
+.cover-manga-hellish-agents{
+    width: 354px;
+    height: 332px;
+    background: url(images/cover-manga-hellish-agents.png) no-repeat;
+    background-size: contain;
+    margin-top: 40px;
+}
+
+.cover-manga-why-i-love-you{
+    width: 354px;
+    height: 332px;
+    background: url(images/cover-manga-why-i-love-you.png) no-repeat;
+    background-size: contain;
+    margin-top: 40px;
+}
+
+.cover-manga-let-s-continue-tomorrow{
+    width: 354px;
+    height: 332px;
+    background: url(images/cover-manga-let-s-continue-tomorrow.png) no-repeat;
+    background-size: contain;
+    margin-top: 40px;
+}
+
+.cover-manga-Sensei_Ote-o-Douzo{
+    width: 354px;
+    height: 332px;
+    background: url(images/cover-manga-Sensei_Ote-o-Douzo.png) no-repeat;
+    background-size: contain;
+    margin-top: 40px;
+}
+
+
+.cover-manga-Sensei_Ote-o-Douzo:last-child{
+   position: relative;
+   right: 408px;
+}
+
+
+
+/* MAIN ОЗВУЧКА*/
+
+
+
+
+.links{
+    display: flex;
+    justify-content: center;
+ }
+ 
+ .tab_link {
+     font-family: 'Roboto', sans-serif;
+     font-weight: 400;
+     font-size: 20px;
+     line-height: 30px;
+     color: #ffffff;
+     text-decoration: none;
+     text-align: center;
+     margin-left: 20px;
+ }
+
+ .tab_active{
+    border-bottom: 3px solid #ffa600;
+ }
+ 
+ .content{
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+     margin-top: 20px;
+     display: none;
+ }
+
+ .content_active{
+     display: block;
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+     margin-top: 20px;
+ }
+ 
+ .cover_Love_that_changed_the_world{
+     width: 354px;
+     height: 332px;
+     background: url(images/cover_Love_that_changed_the_world.png) no-repeat;
+     background-size: contain;
+     margin-bottom: 20px;
+ }
+ 
+ .cover_serial_angkor{
+     width: 354px;
+     height: 332px;
+     background: url(images/cover_serial_Angkor.png) no-repeat;
+     background-size: contain;
+     margin-top: 20px;
+    
+ }
+
+ .cover-fairy-tale-birth{
+    width: 354px;
+    height: 332px;
+    background: url(images/cover-fairy-tale-birth.png) no-repeat;
+    background-size: contain;
+    margin-top: 20px;
+}
+
+
+.cover-fairy-tales-shine{
+    width: 354px;
+    height: 332px;
+    background: url(images/cover-fairy-tales-shine.png) no-repeat;
+    background-size: contain;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.cover-fairy-tales-trickle{
+    width: 354px;
+    height: 332px;
+    background: url(images/cover-fairy-tales-trickle.png) no-repeat;
+    background-size: contain;
+    
+}
+
+.cover-fairy-tales-strawberry-and-dragon{
+    width: 354px;
+    height: 332px;
+    background: url(images/cover-fairy-tales-strawberry-and-dragon.png) no-repeat;
+    background-size: contain;
+    position: relative;
+    right: 420px;
+}
+
+
+
+
+
+
+/*ПОДВАЛ САЙТА*/
+
+
+
+
+
+.social{
+    display: flex;
+    justify-content: center;
+    margin-top: 220px;
+    margin-bottom: 24px;
+}
+
+.youtube{
+    margin-left: 30px;
+}
